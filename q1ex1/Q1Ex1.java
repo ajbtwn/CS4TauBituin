@@ -33,7 +33,10 @@ public class Q1Ex1 {
         boolean older = age3 > age2;
         System.out.print("\n\n" + name3 + " is older than " + name2 + ": " + older);
         boolean hobby = hobby1 == hobby2;
-        System.out.print("\n" + name1 + " and " + name2 + " have the same favorite hobbies: " + hobby);
+        System.out.print("\n" + name1 + " and " + name2 + " have the same favorite hobby: " + hobby);
+        boolean sameAge = age1 == age2;
+        System.out.print("\n" + name1 + " and " + name2 + " have the same age: " + sameAge);
+        
     }
     
 }
